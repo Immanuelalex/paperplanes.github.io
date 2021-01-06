@@ -397,13 +397,13 @@ h5 {
 }
 
 p {
-	color: #707070;
+	color: #0b0b0b;
 	font-size: 15px;
 	line-height: 21px;
 }
 
 p.large {
-	color: #898989;
+	color: #0b0b0b;
 	font-size: 20px;
 	font-weight: 400;
 	margin: 0 0 10px 0;
@@ -789,7 +789,7 @@ hr.dottad_border {
 }
 
 .icon img {
-	width: 100px;
+	width: 200px;
 }
 
 
@@ -954,7 +954,7 @@ header .right_bt .btn {
 	float: left;
 	margin: 19px 0 19px;
 	position: relative;
-	left: 0;
+	left: -92px;
 }
 
 .logo img {
@@ -4864,7 +4864,7 @@ clear: both;
 
   position: absolute;
 
-  bottom: 5.5rem;
+  bottom: 30rem;
 
 }
 
@@ -4992,7 +4992,7 @@ clear: both;
 
   left: 3rem;
 
-  bottom: 2.3rem;
+  bottom: 27rem;
 
   -webkit-transition: none;
 
@@ -5011,7 +5011,9 @@ clear: both;
 
   line-height: 1!important;
 
-  font-weight: 600;
+  font-weight: 800;
+  
+  font-size : large;
 
 }
 
