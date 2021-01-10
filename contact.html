@@ -62,12 +62,12 @@
             <div class="menu_side">
               <div id="navbar_menu">
                 <ul class="first-ul">
-                  <li><a class="active" href="index.html">Home</a></li>
+                  <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About Us</a></li>
                   <li><a href="service.html">Service</a></li>
                   <li><a href="Gallery.html">Gallery</a></li>
                   <li><a href="Project.html">Project</a></li>
-                  <li><a href="contact.html">Contact</a>
+                  <li><a class="active" href="contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -103,18 +103,18 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form action = "action.php" class="contact100-form validate-form" method="POST">
 				<span class="contact100-form-title">
 				<b>	We’d love to hear from you, get in touch with us</b>
 				</span>
 
 				<label class="label-input100" for="first-name">Tell us your name *</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-					<input id="first-name" class="input100" type="text" name="first-name" placeholder="First name">
+					<input id="first-name" class="input100" type="text" name="first_name" placeholder="First name">
 					<span class="focus-input100"></span>
 				</div>
 				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-					<input class="input100" type="text" name="last-name" placeholder="Last name">
+					<input class="input100" type="text" name="last_name" placeholder="Last name">
 					<span class="focus-input100"></span>
 				</div>
 
@@ -143,7 +143,7 @@
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn">
+					<button type="submit" class="contact100-form-btn">
 						Send Message
 					</button>
 				</div>

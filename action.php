@@ -1,15 +1,16 @@
 <?php
-print_r($_POST); exit;
-if(isset($_POST['username'])){
-    $name=$_POST['username'];
+
+if(isset($_POST['first_name'])){
+    $first_name=$_POST['first_name'];
+	$last_name=$_POST['last_name'];
     $email=$_POST['email'];
-    $subject=$_POST['sub'];
-    $message=$_POST['textarea'];
+    $phone=$_POST['phone'];
+	$type=$_POST['type'];
+    $message=$_POST['message'];
 
-
-    $to='aimmanuel85@gmail.com';
+	$to='aimmanuel85@gmail.com';
     $esubject="Form submission";
-    $content="Name : ".$name. "\n"."Email :" .$email."\n"."Subject :" .$subject."\n"."Message"."\n\n".$message;
+    $content="Name : ".$first_name. "\n"."Email :" .$email."\n"."Subject :" .$type."\n"."Message"."\n\n".$message;
     $headers="From : " .$email;
 
 
@@ -21,5 +22,6 @@ if(isset($_POST['username'])){
     {
         echo "Something went wrong";
     }
+   
 }
 ?>
