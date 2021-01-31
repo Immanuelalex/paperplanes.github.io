@@ -493,8 +493,8 @@ a:focus {
 }
 
 .container {
-	width: 1200px;
-	max-width: 1200px;
+	width: 1400px;
+	max-width: 1400px;
 }
 
 .section_padding {
@@ -954,7 +954,6 @@ header .right_bt .btn {
 	float: left;
 	margin: 19px 0 19px;
 	position: relative;
-	left: -92px;
 }
 
 .logo img {
@@ -4814,8 +4813,8 @@ padding: 10px;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -150px;
-  margin-left: -150px;
+  margin-right: -20px;
+  margin-left: -20px;
 }
 
 /* Clear floats after the columns */
