@@ -31,13 +31,13 @@ a.btn.dark_gray_bt:focus,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover,
 .icon_feature {
-	background: #050708;
+	background: #fdfdfd;
     background-size: 100% 100%;
     border: none;
 }
 
 .theme_bg {
-	background: #050708;
+	background: #fdfdfd;
 }
 
 #navbar_menu > ul > li a.active,
